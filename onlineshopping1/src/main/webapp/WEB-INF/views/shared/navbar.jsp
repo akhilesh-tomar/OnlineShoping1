@@ -18,13 +18,13 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
            <ul class="nav navbar-nav">
          
-          <li class="nav-item">
+          <li  id="about">
             <a  href="${contextRoot}/about">About us</a>
-          </li>
-          <li >
+          </li >
+          <li id="ListProducts">
             <a href="${contextRoot}/ListProducts">View Product</a>
           </li>
-          <li >
+          <li id="contact" >
             <a href="${contextRoot}/contact">Contact us</a>
           </li>
         </ul>
