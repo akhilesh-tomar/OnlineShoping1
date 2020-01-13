@@ -10,7 +10,10 @@
       http://www.springframework.org/schema/mvc
     http://www.springframework.org/schema/mvc/spring-mvc.xsd         
     ">
-    <context:component-scan base-package="net.kzn.onlineshopping1"/>
+    <context:component-scan base-package="net.kzn.onlineshopping1.controller"/>
+    
+    <!-- Since we are fetching data from backend so we need to scan backend of dao package as well -->
+     <context:component-scan base-package="net.kzn.shoppingbackend1.daoImpl"/>
 
 	<bean id="viewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
